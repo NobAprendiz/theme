@@ -297,28 +297,21 @@ background: rgba(0,0,0,0.75);
 background: rgba(0,0,0,0.75);
 }
 .media-list .row.selected {
-background:rgba(0,156,221,0,1);
+    background: #009cdd;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #00b5e6;
 }
-#your-next-media.in-history {
-    color: #f04f30;
-}
-#playlist-menu {
-background: rgba(0,0,0,0.75);
-}
-.media-list .container {
-background: rgba(0,0,0,0.75);
-}
-.media-list .row.selected {
-background:rgba(0,156,221,0,1);
-}
-#your-next-media.in-history {
-    color: #f04f30;
-}
-#playlist-menu .menu .row .count {
-    top: 10px;
-    right: 10px;
-    color: #FFF;
-    font-weight: bold;
+#playlist-menu .menu .row.selected {
+    background: #009bdd;
+    cursor: default;
 }
 }
 #user-rollover.is-staff .info .role span{
